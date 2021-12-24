@@ -18,21 +18,16 @@ class MainMenu
 		System.out.println("\t\t\t**************TO***************************");
 	    System.out.println("\t\t\t  HUMAN RESOURCE MANAGEMENT SYSTEM");
 	    System.out.println("\t\t*********************************************");
-//	    System.out.println("\t\t\t    --------------------");
-//	    System.out.println("\t\t\t        CTS-GROUP-4");
-//	    System.out.println("\t\t\t    --------------------");
 	}
   public void menu()
   {
     
     System.out.println("\n\nPress 1 : To Add an Employee Details");
     System.out.println("Press 2 : To get all Employee Details ");
-//    System.out.println("Press 3 : To get Employee By Id");
     System.out.println("Press 3 : To Remove an Employee");
     System.out.println("Press 4 : To Update Employee Details");
     System.out.println("\nPress 5 : To Add an Department Details");
     System.out.println("Press 6 : To get all Department Details ");
-//    System.out.println("Press 3 : To get Employee By Id");
     System.out.println("Press 7 : To Remove an Department");
     System.out.println("Press 8 : To Update Department Details");
     System.out.println("Press 9 : To Exit the HRMS Portal");
@@ -82,8 +77,7 @@ public class HRM {
 		Properties properties = new Properties();
 		properties.load(fileReader);
 		
-//		System.out.println(properties.getProperty("user"));
-//		System.out.println(properties.getProperty("password"));
+
 	
 		ArrayList<Employee> employee = new ArrayList<Employee>();
 		Employee employee2 = new Employee();
